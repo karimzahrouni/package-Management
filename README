@@ -1,0 +1,13 @@
+1.go to tmp folder and put this commands to generate app
+
+$ make -C tmp/
+
+$ rm myFact_2.0_all/usr/bin/myfact
+
+$ cp tmp/myfact myFact_2.0_all/usr/bin/
+
+$ sudo dpkg-deb --build myFact_2.0_all
+
+$ sudo dpkg -i myFact_2.0_all.deb
+
+

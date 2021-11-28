@@ -1,0 +1,11 @@
+
+Package: myfact
+Version: 2.0
+Architecture: all
+Essential: no
+Priority: optional 
+Depends:
+Maintainer: zahrouni_karim
+Description: simple program to print factorial of sam number.
+
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "debut d'installation"
+
+FILE=/usr/bin/myfact
+if test -f "$FILE"; then
+    echo "we removed recent version"
+    rm $FILE
+fi
